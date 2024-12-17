@@ -1,0 +1,8 @@
+libnvidia-eglcore.so.#VERSION#	#LIBDIR#/
+libnvidia-glsi.so.#VERSION#	#LIBDIR#/
+libnvidia-egl-*.so.*            #LIBDIR#/
+libnvidia-sandboxutils.so.*     #LIBDIR#/
+libnvidia-vksc-core.so.*        #LIBDIR#/
+
+20*.json                        usr/share/egl/egl_external_platform.d/
+nvidia_icd*.json                etc/vulkan/icd.d/
